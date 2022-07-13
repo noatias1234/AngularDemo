@@ -1,0 +1,27 @@
+
+<app-header></app-header>
+ <mat-card>
+  <form [formGroup]="profileForm" class="example-form" (ngSubmit)="saveForm(profileForm.value)">
+  <div class="row">
+      <mat-form-field class="example-full-width" appearance="fill">
+          <input formControlName="title" matInput placeholder="Enter Entity Name">
+          </mat-form-field>
+    </div>
+  <div class="row">
+      <mat-form-field class="example-full-width" appearance="fill">
+            <input formControlName="xPosition" matInput placeholder="Enter X position">
+      </mat-form-field>
+  </div>
+  <div class="row">
+      <mat-form-field class="example-full-width" appearance="fill">
+          <input formControlName="yPosition" matInput placeholder="Enter Y position">
+      </mat-form-field>
+  </div>
+    
+    <mat-card-actions>
+      <button (click)="saveForm" mat-raised-btn color="primary">create</button>
+    </mat-card-actions>
+
+  </form>
+ </mat-card>
+

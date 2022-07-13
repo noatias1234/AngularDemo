@@ -1,0 +1,17 @@
+
+.mat-card{
+  margin: 30px;
+  margin-right: 75%;
+  padding: 15px;
+}
+.mat-card-actions{
+  margin-left: 35%;
+}
+.example-full-width{
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.image-card{
+  margin-left: 40%;
+}
